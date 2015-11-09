@@ -129,11 +129,8 @@ final class StaticWordLibrary extends WordLibrary {
     public String getScrambledWord(int idx) {
         return SCRAMBLED_WORD_LIST[idx];
     }
-
-    /**
-     * Gets the number of words in the library.
-     * @return the total number of plain/scrambled word pairs in the library
-     */
+    
+    //commit 2 hecho por Nabor
     public int getSize() {
         return WORD_LIST.length;
     }
